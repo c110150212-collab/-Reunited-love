@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>在別後重逢的戀愛｜電影募資互動企劃</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首頁">在別後重逢的戀愛</a>
+      <nav class="nav" aria-label="主要導覽">
+        <a href="#story">企劃</a>
+        <a href="#funding">籌資</a>
+        <a href="#interaction">互動</a>
+        <a href="#marketing">行銷</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <div class="film-still">
+            <img src="assets/key-visual.png" alt="" />
+          </div>
+        </div>
+        <div class="hero-content">
+          <p class="kicker">都市愛情電影募資企劃</p>
+          <h1 id="hero-title">在別後重逢的戀愛</h1>
+          <p class="hero-copy">
+            一部關於錯過、道歉與重新選擇的電影。不是回到以前，而是在新的時間裡，把選擇放回兩個人中間。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#funding">支持拍攝</a>
+            <a class="button secondary" href="#interaction">進入文本互動</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="section story-section" aria-labelledby="story-title">
+        <div class="section-heading">
+          <p class="kicker">Film Proposal</p>
+          <h2 id="story-title">電影企劃核心</h2>
+        </div>
+        <div class="story-grid">
+          <article class="quiet-panel">
+            <h3>故事定位</h3>
+            <p>
+              插畫師林予安在個展雨夜重逢七年前離開她的建築設計師周以辰。兩人因舊城天橋公共藝術案再次靠近，也重新面對當年的沉默、誤解與未說完的愛。
+            </p>
+          </article>
+          <article class="quiet-panel">
+            <h3>主題句</h3>
+            <p>
+              愛不是替對方決定，而是一起面對選擇。重逢不是彌補過去，而是承認傷口後，仍願意往前走。
+            </p>
+          </article>
+          <article class="quiet-panel">
+            <h3>目標觀眾</h3>
+            <p>
+              20至35歲，喜歡都市愛情、慢熟情感、舊愛重逢與療癒系劇情的觀眾。適合以角色金句、場景美術與互動內容做社群擴散。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="funding" class="section funding-section" aria-labelledby="funding-title">
+        <div class="section-heading">
+          <p class="kicker">Crowdfunding</p>
+          <h2 id="funding-title">籌資進度</h2>
+        </div>
+        <div class="funding-layout">
+          <div class="funding-board">
+            <div class="funding-topline">
+              <span>目前累積</span>
+              <strong id="funding-current">NT$0</strong>
+            </div>
+            <div class="progress-shell" aria-label="籌資進度">
+              <div id="funding-progress" class="progress-fill"></div>
+            </div>
+            <div class="funding-meta">
+              <span id="funding-percent">0%</span>
+              <span id="funding-goal">目標 NT$0</span>
+            </div>
+            <p id="funding-note" class="funding-note"></p>
+          </div>
+
+          <div class="pledge-panel" aria-labelledby="pledge-title">
+            <h3 id="pledge-title">選擇支持方案</h3>
+            <div id="pledge-options" class="pledge-options"></div>
+            <div class="pledge-preview">
+              <span>你的支持訊息</span>
+              <p id="pledge-message">選一個方案，留下給這部電影的第一句話。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="interaction" class="section interaction-section" aria-labelledby="interaction-title">
+        <div class="section-heading">
+          <p class="kicker">Text Interaction</p>
+          <h2 id="interaction-title">觀眾文本互動</h2>
+        </div>
+        <div class="dialogue-app">
+          <div class="dialogue-scene">
+            <span id="scene-label">雨夜畫廊</span>
+            <p id="scene-text"></p>
+          </div>
+          <div id="choice-list" class="choice-list" aria-label="文本選項"></div>
+          <div class="response-box">
+            <span>角色回應</span>
+            <p id="character-response">請替角色選一句話，看看這段重逢會如何繼續。</p>
+          </div>
+          <div class="affinity">
+            <span>共鳴值</span>
+            <div class="affinity-track">
+              <div id="affinity-fill" class="affinity-fill"></div>
+            </div>
+            <strong id="affinity-score">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="marketing" class="section marketing-section" aria-labelledby="marketing-title">
+        <div class="section-heading">
+          <p class="kicker">Marketing Budget</p>
+          <h2 id="marketing-title">行銷預算比例</h2>
+        </div>
+        <div class="budget-layout">
+          <div class="budget-summary">
+            <p>
+              本企劃以總募資目標作為預算基準，其中
+              <strong id="marketing-ratio">0%</strong>
+              明確保留為電影行銷費用，用於前導社群、預告素材、觀眾互動活動與首映宣傳。
+            </p>
+            <p id="marketing-amount" class="budget-amount"></p>
+          </div>
+          <div id="budget-list" class="budget-list"></div>
+        </div>
+      </section>
+
+      <section class="section final-cta" aria-labelledby="cta-title">
+        <p class="kicker">Final Line</p>
+        <h2 id="cta-title">「我們不回到以前，我們從現在開始。」</h2>
+        <p>支持這部電影，讓觀眾在文本互動裡先遇見角色，再在大銀幕前完成那場重逢。</p>
+        <a class="button primary" href="#funding">一起把電影拍出來</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>電影募資互動網站範例｜企劃、腳本、籌資與行銷整合頁</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
